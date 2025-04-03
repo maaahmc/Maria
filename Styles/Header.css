@@ -12,3 +12,20 @@
     .container titulo, .container frase{
     display:none;
     }
+    @media screen and (mind-width: 820px) {
+        .container__titulo, .container__titulo--negrito {
+            font-size: 30px;
+        }
+
+
+        .container__titulo {
+            font-weight: 400;
+            display: block;
+        }
+        @media screen and (mind-width: 1024px) {
+            .container__frase{
+                padding-left: 5em;
+                font-size: 20px;
+                display: block;
+            }
+        }
